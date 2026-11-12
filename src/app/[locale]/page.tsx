@@ -1,4 +1,7 @@
+import fs from 'fs';
+import path from 'path';
 import { setRequestLocale } from 'next-intl/server';
+import { event } from '../../../content/event';
 import Gate from '@/components/sections/Gate';
 import Navbar from '@/components/ui/Navbar';
 import Hero from '@/components/sections/Hero';
@@ -21,6 +24,17 @@ export default async function WeddingPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+
+  // Automatically filter gallery photos to only those that actually exist on disk in public/
+  const existingGalleryPhotos = (event.gallery || []).filter((photo) => {
+    if (!photo.src) return false;
+    try {
+      const filePath = path.join(process.cwd(), 'public', photo.src);
+      return fs.existsSync(filePath);
+    } catch {
+      return true;
+    }
+  });
 
   return (
     <>
@@ -51,7 +65,7 @@ export default async function WeddingPage({
         <Venue />
 
         {/* 8. Gallery: Cherished Moments Grid with Full-Screen Lightbox */}
-        <Gallery />
+        <Gallery photos={existingGalleryPhotos} />
 
         {/* 9. Closing Blessings & Bidaay Footer: Bride's Hands with Paan, Jora Mach, Share Link */}
         <Footer />

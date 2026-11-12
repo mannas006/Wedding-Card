@@ -221,15 +221,6 @@ export const event = {
     },
     {
       id: 2,
-      src: "/images/gallery-2.jpg" as string | null,
-      titleEn: "Laughter & Coffee",
-      titleBn: "হাসি আর আড্ডা",
-      captionEn: "Sharing stories over warm cups of tea",
-      captionBn: "চায়ের কাপে অফুরন্ত গল্প আর আন্তরিক হাসি",
-      aspect: "landscape",
-    },
-    {
-      id: 3,
       src: "/images/gallery-4.jpg" as string | null,
       titleEn: "Family Blessings",
       titleBn: "পারিবারিক আশিস",
@@ -238,16 +229,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 4,
-      src: "/images/gallery-5.jpg" as string | null,
-      titleEn: "Festive Melodies",
-      titleBn: "উৎসবের সুর",
-      captionEn: "Folk tunes and rhythms echoing joy",
-      captionBn: "সানাইয়ের মধুর তান আর উৎসবের আনন্দলহরী",
-      aspect: "landscape",
-    },
-    {
-      id: 5,
+      id: 3,
       src: "/images/gallery-7.jpg" as string | null,
       titleEn: "The Golden Promise",
       titleBn: "চিরন্তন অঙ্গীকার",
@@ -256,16 +238,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 6,
-      src: "/images/gallery-8.jpg" as string | null,
-      titleEn: "Shared Dreams",
-      titleBn: "একাকী স্বপন",
-      captionEn: "Dreaming together of tomorrow's journey",
-      captionBn: "ভালোবাসা দিয়ে এক নতুন সংসার গড়ার স্বপ্ন",
-      aspect: "landscape",
-    },
-    {
-      id: 7,
+      id: 4,
       src: "/images/gallery-9.jpg" as string | null,
       titleEn: "Pre-Wedding Joy",
       titleBn: "সান্ধ্য খুনসুটি",
@@ -275,7 +248,7 @@ export const event = {
       objectPosition: "object-top",
     },
     {
-      id: 8,
+      id: 5,
       src: "/images/gallery-10.jpg" as string | null,
       titleEn: "Forever Ahead",
       titleBn: "চিরন্তন পথচলা",
@@ -285,7 +258,7 @@ export const event = {
       objectPosition: "object-top",
     },
     {
-      id: 9,
+      id: 6,
       src: "/images/gallery-13.jpg" as string | null,
       titleEn: "On The Waters",
       titleBn: "জলের বুকে",
@@ -294,7 +267,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 10,
+      id: 7,
       src: "/images/gallery-14.jpg" as string | null,
       titleEn: "By The Shore",
       titleBn: "সমুদ্রের পাড়ে",
@@ -303,7 +276,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 11,
+      id: 8,
       src: "/images/gallery-15.jpg" as string | null,
       titleEn: "Hand In Hand",
       titleBn: "হাতে হাত",
@@ -312,7 +285,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 12,
+      id: 9,
       src: "/images/gallery-17.jpg" as string | null,
       titleEn: "Forest Walk",
       titleBn: "সবুজের পথে",

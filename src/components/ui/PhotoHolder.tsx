@@ -72,8 +72,7 @@ export default function PhotoHolder({
           sizes={sizes}
           priority={priority}
           className={`object-cover ${objectPosition}`}
-          onError={(e) => {
-            console.warn(`[PhotoHolder] Image failed to load: ${src}`, e);
+          onError={() => {
             setHasError(true);
           }}
         />

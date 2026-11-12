@@ -54,7 +54,11 @@ const slideVariants = {
   }),
 };
 
-export default function Gallery() {
+interface GalleryProps {
+  photos?: GalleryPhoto[];
+}
+
+export default function Gallery({ photos: propPhotos }: GalleryProps = {}) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(1);
   const [isPlaying, setIsPlaying] = useState(true);
@@ -66,7 +70,10 @@ export default function Gallery() {
   const locale = useLocale();
   const isBn = locale === 'bn';
 
-  const photos: GalleryPhoto[] = (event.gallery || []).filter((photo) => Boolean(photo.src));
+  const photos: GalleryPhoto[] = (propPhotos && propPhotos.length > 0
+    ? propPhotos
+    : event.gallery || []
+  ).filter((photo) => Boolean(photo.src));
   const total = photos.length;
 
   const paginate = useCallback(
