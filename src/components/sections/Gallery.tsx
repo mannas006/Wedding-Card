@@ -66,7 +66,7 @@ export default function Gallery() {
   const locale = useLocale();
   const isBn = locale === 'bn';
 
-  const photos: GalleryPhoto[] = event.gallery || [];
+  const photos: GalleryPhoto[] = (event.gallery || []).filter((photo) => Boolean(photo.src));
   const total = photos.length;
 
   const paginate = useCallback(

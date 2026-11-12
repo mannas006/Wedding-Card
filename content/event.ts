@@ -208,7 +208,7 @@ export const event = {
     { year: "2026", titleEn: "Forever Begins", titleBn: "চিরকালের শুরু", descEn: "And now, surrounded by loved ones, our new chapter begins…", descBn: "আপনাদের শুভকামনা ও ভালোবাসায় শুরু হচ্ছে আমাদের এক নতুন অধ্যায়…" },
   ],
 
-  // Gallery (Cherished Moments - 10 Photos)
+  // Gallery (Cherished Moments)
   gallery: [
     {
       id: 1,
@@ -230,15 +230,6 @@ export const event = {
     },
     {
       id: 3,
-      src: null,
-      titleEn: "Riverfront Evening",
-      titleBn: "নদীর তীরে সন্ধ্যা",
-      captionEn: "Under the golden Kolkata dusk",
-      captionBn: "গঙ্গার ঘাটে সোনালী সন্ধ্যার মিষ্টি আবেশ",
-      aspect: "landscape",
-    },
-    {
-      id: 4,
       src: "/images/gallery-4.jpg" as string | null,
       titleEn: "Family Blessings",
       titleBn: "পারিবারিক আশিস",
@@ -247,7 +238,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 5,
+      id: 4,
       src: "/images/gallery-5.jpg" as string | null,
       titleEn: "Festive Melodies",
       titleBn: "উৎসবের সুর",
@@ -256,16 +247,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 6,
-      src: null,
-      titleEn: "Traditional Elegance",
-      titleBn: "ঐতিহ্যবাহী সাজ",
-      captionEn: "Embracing cultural heritage and silks",
-      captionBn: "বাঙালি সংস্কৃতির রঙিন রঙে ও সাবেকি সাজে",
-      aspect: "landscape",
-    },
-    {
-      id: 7,
+      id: 5,
       src: "/images/gallery-7.jpg" as string | null,
       titleEn: "The Golden Promise",
       titleBn: "চিরন্তন অঙ্গীকার",
@@ -274,7 +256,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 8,
+      id: 6,
       src: "/images/gallery-8.jpg" as string | null,
       titleEn: "Shared Dreams",
       titleBn: "একাকী স্বপন",
@@ -283,7 +265,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 9,
+      id: 7,
       src: "/images/gallery-9.jpg" as string | null,
       titleEn: "Pre-Wedding Joy",
       titleBn: "সান্ধ্য খুনসুটি",
@@ -293,7 +275,7 @@ export const event = {
       objectPosition: "object-top",
     },
     {
-      id: 10,
+      id: 8,
       src: "/images/gallery-10.jpg" as string | null,
       titleEn: "Forever Ahead",
       titleBn: "চিরন্তন পথচলা",
@@ -303,7 +285,7 @@ export const event = {
       objectPosition: "object-top",
     },
     {
-      id: 11,
+      id: 9,
       src: "/images/gallery-11.jpg" as string | null,
       titleEn: "Cherished Gathering",
       titleBn: "প্রিয় মুহূর্ত",
@@ -312,16 +294,17 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 12,
+      id: 10,
       src: "/images/gallery-12.jpg" as string | null,
       titleEn: "Our Story",
       titleBn: "আমাদের গল্প",
       captionEn: "A love story written in watercolors",
       captionBn: "জলরঙে আঁকা আমাদের ভালোবাসার গল্প",
       aspect: "portrait",
+      objectPosition: "object-top",
     },
     {
-      id: 13,
+      id: 11,
       src: "/images/gallery-13.jpg" as string | null,
       titleEn: "On The Waters",
       titleBn: "জলের বুকে",
@@ -330,7 +313,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 14,
+      id: 12,
       src: "/images/gallery-14.jpg" as string | null,
       titleEn: "By The Shore",
       titleBn: "সমুদ্রের পাড়ে",
@@ -339,7 +322,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 15,
+      id: 13,
       src: "/images/gallery-15.jpg" as string | null,
       titleEn: "Hand In Hand",
       titleBn: "হাতে হাত",
@@ -348,16 +331,17 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 16,
+      id: 14,
       src: "/images/gallery-16.jpg" as string | null,
       titleEn: "Together At Sea",
       titleBn: "জলের ধারে দুজন",
       captionEn: "A serene portrait by the waterfront",
       captionBn: "জলের ধারে নিরিবিলি দুজনের ছবি",
       aspect: "portrait",
+      objectPosition: "object-top",
     },
     {
-      id: 17,
+      id: 15,
       src: "/images/gallery-17.jpg" as string | null,
       titleEn: "Forest Walk",
       titleBn: "সবুজের পথে",
