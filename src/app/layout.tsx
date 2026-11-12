@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
-  metadataBase: new URL('https://jhilik-koushik.vercel.app'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://wedding-card-seven-steel.vercel.app'),
   openGraph: {
     title: 'Jhilik Dey & Koushik Dutta | শুভ বিবাহ — ২৫ নভেম্বর ২০২৬',
     description:

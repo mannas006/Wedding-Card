@@ -286,25 +286,6 @@ export const event = {
     },
     {
       id: 9,
-      src: "/images/gallery-11.jpg" as string | null,
-      titleEn: "Cherished Gathering",
-      titleBn: "প্রিয় মুহূর্ত",
-      captionEn: "Surrounded by family and their warmth",
-      captionBn: "পরিবারের ভালোবাসার ছায়ায় এক অনন্য মুহূর্ত",
-      aspect: "landscape",
-    },
-    {
-      id: 10,
-      src: "/images/gallery-12.jpg" as string | null,
-      titleEn: "Our Story",
-      titleBn: "আমাদের গল্প",
-      captionEn: "A love story written in watercolors",
-      captionBn: "জলরঙে আঁকা আমাদের ভালোবাসার গল্প",
-      aspect: "portrait",
-      objectPosition: "object-top",
-    },
-    {
-      id: 11,
       src: "/images/gallery-13.jpg" as string | null,
       titleEn: "On The Waters",
       titleBn: "জলের বুকে",
@@ -313,7 +294,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 12,
+      id: 10,
       src: "/images/gallery-14.jpg" as string | null,
       titleEn: "By The Shore",
       titleBn: "সমুদ্রের পাড়ে",
@@ -322,7 +303,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 13,
+      id: 11,
       src: "/images/gallery-15.jpg" as string | null,
       titleEn: "Hand In Hand",
       titleBn: "হাতে হাত",
@@ -331,17 +312,7 @@ export const event = {
       aspect: "landscape",
     },
     {
-      id: 14,
-      src: "/images/gallery-16.jpg" as string | null,
-      titleEn: "Together At Sea",
-      titleBn: "জলের ধারে দুজন",
-      captionEn: "A serene portrait by the waterfront",
-      captionBn: "জলের ধারে নিরিবিলি দুজনের ছবি",
-      aspect: "portrait",
-      objectPosition: "object-top",
-    },
-    {
-      id: 15,
+      id: 12,
       src: "/images/gallery-17.jpg" as string | null,
       titleEn: "Forest Walk",
       titleBn: "সবুজের পথে",
@@ -502,7 +473,7 @@ export const event = {
   },
 
   // Site metadata
-  siteUrl: "https://jhilik-koushik.vercel.app",
+  siteUrl: "https://wedding-card-seven-steel.vercel.app",
   ogImage: "/og-image.png",
 };
 
