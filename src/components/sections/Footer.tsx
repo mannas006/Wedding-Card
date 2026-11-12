@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { event } from '../../../content/event';
-import ShareButton from '@/components/ui/ShareButton';
 import LiveStreamBanner from '@/components/ui/LiveStreamBanner';
 
 export default function Footer() {
@@ -53,11 +52,6 @@ export default function Footer() {
         {/* Live Stream Banner (Automated for 25 Nov) */}
         <div className="w-full max-w-sm my-4">
           <LiveStreamBanner />
-        </div>
-
-        {/* Share Button (Copy Link) */}
-        <div className="my-4">
-          <ShareButton />
         </div>
 
         {/* Couple Signatures & Bangla Date */}

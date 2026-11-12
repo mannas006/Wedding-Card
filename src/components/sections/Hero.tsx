@@ -82,7 +82,7 @@ export default function Hero() {
     <div
       id="hero"
       ref={sectionRef}
-      className="relative min-h-0 sm:min-h-[100dvh] flex flex-col items-center justify-start px-3 pt-8 pb-8 sm:px-4 sm:pt-14 sm:pb-12 bg-[#FFF8EC]"
+      className="relative min-h-0 sm:min-h-[100dvh] flex flex-col items-center justify-start px-3 pt-16 pb-8 sm:px-4 sm:pt-14 sm:pb-12 bg-[#FFF8EC]"
       style={{
         backgroundImage:
           'radial-gradient(circle at 50% 20%, rgba(246,233,210,0.85) 0%, rgba(255,248,236,1) 100%)',
