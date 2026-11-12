@@ -235,8 +235,11 @@ export default function TheDay() {
 
                       {/* Lavender/Rose Time Pill */}
                       <div className={`my-1.5 ${isEven ? 'sm:self-end' : 'sm:self-start'}`}>
-                        <span className="inline-flex items-center gap-1 px-3.5 py-1 rounded-full bg-[#F5ECF7] border border-[#D8BFD8] text-[#6F0E20] font-bold text-xs sm:text-sm tracking-wider shadow-sm">
-                          <span className="text-[10px] text-[#8C6D9E]">⏰</span>
+                        <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#F5ECF7] border border-[#D8BFD8] text-[#6F0E20] font-bold text-xs sm:text-sm tracking-wider shadow-sm">
+                          <svg className="w-3.5 h-3.5 text-[#8C6D9E] shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                          </svg>
                           {time}
                         </span>
                       </div>
