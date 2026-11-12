@@ -16,6 +16,7 @@ export interface PhotoHolderProps {
   className?: string;
   sizes?: string;
   priority?: boolean;
+  objectPosition?: string;
 }
 
 export default function PhotoHolder({
@@ -30,6 +31,7 @@ export default function PhotoHolder({
   className = '',
   sizes = '(max-width: 430px) 90vw, 400px',
   priority = false,
+  objectPosition = 'object-center',
 }: PhotoHolderProps) {
   const locale = useLocale();
   const [hasError, setHasError] = useState(false);
@@ -69,7 +71,7 @@ export default function PhotoHolder({
           fill
           sizes={sizes}
           priority={priority}
-          className="object-cover object-center"
+          className={`object-cover ${objectPosition}`}
           onError={(e) => {
             console.warn(`[PhotoHolder] Image failed to load: ${src}`, e);
             setHasError(true);

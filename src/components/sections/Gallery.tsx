@@ -287,6 +287,7 @@ export default function Gallery() {
                   hintEn="Cherished Moment (4:3)"
                   priority={true}
                   className="shadow-md"
+                  objectPosition={currentPhoto.objectPosition || (currentPhoto.aspect === 'portrait' ? 'object-top' : 'object-center')}
                 />
 
                 {/* Floating "View Full Size" Hover Pill */}
@@ -405,7 +406,7 @@ export default function Gallery() {
                       alt={photoTitle}
                       fill
                       sizes="56px"
-                      className="object-cover"
+                      className={`object-cover ${photo.objectPosition || (photo.aspect === 'portrait' ? 'object-top' : 'object-center')}`}
                     />
                   ) : (
                     <div className="flex flex-col items-center justify-center text-[#B3172F] p-1">

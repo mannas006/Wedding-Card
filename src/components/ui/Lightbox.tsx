@@ -12,6 +12,7 @@ export interface GalleryPhoto {
   captionEn: string;
   captionBn: string;
   aspect: string;
+  objectPosition?: string;
 }
 
 interface LightboxProps {

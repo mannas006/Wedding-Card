@@ -230,7 +230,7 @@ export const event = {
     },
     {
       id: 3,
-      src: "/images/gallery-3.jpg" as string | null,
+      src: null,
       titleEn: "Riverfront Evening",
       titleBn: "নদীর তীরে সন্ধ্যা",
       captionEn: "Under the golden Kolkata dusk",
@@ -257,7 +257,7 @@ export const event = {
     },
     {
       id: 6,
-      src: "/images/gallery-6.jpg" as string | null,
+      src: null,
       titleEn: "Traditional Elegance",
       titleBn: "ঐতিহ্যবাহী সাজ",
       captionEn: "Embracing cultural heritage and silks",
@@ -289,7 +289,8 @@ export const event = {
       titleBn: "সান্ধ্য খুনসুটি",
       captionEn: "Unfiltered smiles before the sacred vows",
       captionBn: "বিয়ের সান্ধ্যক্ষণে দুজনের অনাবিল আনন্দঘন মুহূর্ত",
-      aspect: "landscape",
+      aspect: "portrait",
+      objectPosition: "object-top",
     },
     {
       id: 10,
@@ -298,7 +299,8 @@ export const event = {
       titleBn: "চিরন্তন পথচলা",
       captionEn: "Stepping into tomorrow with hands held tight",
       captionBn: "আগামীর আলোয় একসাথে হাত ধরে অনন্তের পথে যাত্রা",
-      aspect: "landscape",
+      aspect: "portrait",
+      objectPosition: "object-top",
     },
     {
       id: 11,
